@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# VS Code
+.vscode/
+.idea/
+
+# Logs
+
+logs/
+app/logs/
+*.log
+
+# Environment variables
+.env
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+terraform.tfvars
+*.tfvars
+
+# Keys
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+Thumbs.db
